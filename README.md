@@ -10,14 +10,7 @@ This project demonstrates a multi-agent Retrieval-Augmented Generation (RAG) sys
 * **Dynamic Weather Retrieval**: Uses a `retriever_agent` to search for weather information.
 * **Multi-lingual Output**: Translates weather information into the local language of the detected country if it's not English.
 * **Modular Agent Design**: Utilizes `smolagents` for clear separation of concerns (retrieval, search).
-
- **Clone the repository** (once uploaded to GitHub):
-    ```bash
-    git clone [https://github.com/your-username/your-repo-name.git](https://github.com/your-username/your-repo-name.git)
-    cd your-repo-name
-
-    ```
-
+  
 ## Usage
 
 Run the `multi_rag.py` script and call the `manager_agent` function with your query.
